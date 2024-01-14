@@ -1,0 +1,237 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* main{
+    margin: 20px;
+} */
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(71, 71, 71);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0; */
+}
+
+.navbar a{
+    color: azure;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    /* position: relative; */
+}
+
+.navbar a:hover{
+    background-color: black;
+}
+
+.navbar li{
+    float: left;
+}
+
+.logo img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.header-content .banner1 img{
+    width: 100%;
+    height: auto;
+}
+.header-content .banner2 img{
+    width: 100%;
+    height: auto;
+}
+.best-seller{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 650px;
+    margin: 40px 20px;
+}
+.best-seller .title{
+    text-align: center;
+    color: #bb0707;
+}
+.best-seller .product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.thinkpad-img{
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    width: auto !important;
+    height: 100%; */
+}
+.best-seller .buying-link{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hilight-text{
+    color:rgb(255, 97, 40);
+}
+
+.product .bonus{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    /* flex-wrap: wrap; */
+}
+.bonus .ssd img{
+    width: 200px;
+    height: auto;
+}
+.bonus .headphone img{
+    width: 150px;
+    height: auto;
+}
+
+.ssd img:hover{
+    transform: scale(1.05);
+}
+
+.headphone img:hover{
+    transform: scale(1.05);
+}
+
+.ssd p{
+    color: #00d0ff;
+    margin-top: 35px;
+}
+
+.headphone p{
+    color: #00d0ff;
+}
+
+.ssd p:hover{
+    color: #bb0707;
+}
+
+.headphone p:hover{
+    color: #bb0707;
+}
+
+.sale-off h1{
+    text-align: center;
+    color: #bb0707;
+}
+
+.sale-off .products{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sale-off img{
+    width: 300px; 
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+
+.sale-off .ssd_512g img{
+    padding: 51px 0px;
+}
+
+.sale-off .ram img{
+    height: 268px;
+}
+
+.slim p,
+.legion p,
+.ram p,
+.ssd_512g p{
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: rgb(245, 108, 11);
+    height: 40px;
+    width: 300px;
+    margin-left: 21px;
+    position: relative;
+    bottom: 20px;
+    line-height: 40px;
+}
+
+.slim a,
+.legion a,
+.ram a,
+.ssd_512g a{
+    text-decoration: none;
+    color: black;
+}
+.ssd_512g p:hover{
+    transform: scale(1.05);
+    background-color: rgb(251, 133, 50);
+}
+
+.legion p:hover{
+    transform: scale(1.05);
+    background-color: rgb(251, 133, 50);
+}
+
+.slim p:hover{
+    transform: scale(1.05);
+    background-color: rgb(251, 133, 50);
+}
+
+.ram p:hover{
+    transform: scale(1.05);
+    background-color: rgb(251, 133, 50);
+}
+
+.footer{
+    display: block;
+    height: 130px;
+    margin-top: 50px;
+    background-color: chocolate;
+    text-align: center;
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        margin: 0px 0px;
+    }
+    .best-seller{
+        display: flex;
+        flex-direction: column;
+    }
+    .best-seller .product{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product .thinkpad-img img{
+        width: 100%;
+        height: auto;
+    }
+    .sale-off{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sale-off .products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
