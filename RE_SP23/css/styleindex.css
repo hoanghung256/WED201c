@@ -1,0 +1,254 @@
+
+@media only screen and (min-width: 768px){
+    .content-header{
+        display: flex;
+        display: grid;
+    }
+    .logo{
+        width: 300px;
+        padding: 20px;
+    }
+    
+    .menu{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        background-color: red;
+        background-size: 50%;
+        margin-bottom: 30px;
+    }
+    .button{
+        display: inline-block;
+        margin-right: 100px;
+        /* overflow: hidden; */
+        /* border: none; */
+        border-radius: 0px;
+    }
+    .button:hover{
+        background-color: #e49063;  
+    }
+    .button :active{
+        transform: translate(2px);
+    }
+    /* .banner{
+        display: flex;
+    } */
+    .banner1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .banner2{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .banner2-size{
+        width: 1200px;
+        height: auto;
+    }
+    .text{
+        text-decoration: none;
+        font-size: larger;
+        color: aliceblue;
+    }
+    .best-seller .column{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .title{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        color: red;
+    }
+    /* .thinkpad{
+        display: flex;
+        justify-items: center;
+    }
+    .thinkpad .size{
+        height: fit-content;
+    } */
+    .content-wrapper{
+        display: flex;
+    }
+    /* .column .column2 .content{
+        display: flex;
+        font-size: 150%;
+    } */
+    .information{
+        font-size: larger;
+        line-height: 50px;
+    }
+    .content2{
+        color: orangered;
+    
+    }
+    .gift{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gift-box{
+        margin: 20px;
+        color: #0ec0c3;
+    }
+    
+    .gift-images{
+        width: 150px;
+        height: 100px;
+        
+    }
+    .new-year .col{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 10px;
+    
+    }
+    .flex{
+        display: flex;
+        justify-items: center;
+        
+    }
+    .container {
+        border: 1px solid white; /* Màu và độ rộng của khung viền */
+        padding: 0px; /* Khoảng cách giữa nội dung và khung viền */
+        width: 300px; /* Chiều rộng của container */
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.395);
+    }
+    .image-sell-off{
+        height: 300px;
+        width: 300px;
+    }
+    .text-product{
+        display: flex;
+        justify-content: center;
+        background-color: orangered;
+        color: aliceblue;
+    }
+}
+@media only screen and (max-width: 700px){
+    .content-header{
+        display: flex;
+        display: grid;
+    }
+    .logo{
+        width: 300px;
+        padding: 20px;
+    }
+    
+    .menu{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        background-color: red;
+        background-size: 10%;
+        margin-bottom: 30px;
+    }
+    .button{
+        display: inline-block;
+        margin-right: 50px;
+        /* overflow: hidden; */
+        /* border: none; */
+        border-radius: 0px;
+    }
+    .button:hover{
+        background-color: #e49063;  
+    }
+    .button :active{
+        transform: translate(2px);
+    }
+    /* .banner{
+        display: flex;
+    } */
+    .banner1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .banner2{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .banner2-size{
+        width: 600px;
+        height: auto;
+    }
+    .text{
+        text-decoration: none;
+        font-size: larger;
+        color: aliceblue;
+    }
+    .best-seller .column{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .title{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        color: red;
+    }
+    .thinkpad{ 
+        width: 250px;
+    }
+    
+    .content-wrapper{
+        display: flex;
+        
+    }
+    /* .column .column2 .content{
+        display: flex;
+        font-size: 150%;
+    } */
+    .information{
+        font-size: smaller;
+        line-height: 30px;
+    }
+    .content2{
+        color: orangered;
+    
+    }
+    .gift{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gift-box{
+        margin: 20px;
+        color: #0ec0c3;
+        font-size: 8px;
+    }
+    
+    .gift-images{
+        width: 50px;
+        height: 50px;
+    }
+
+    .new-year .col{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+    
+    }
+    .flex{
+        display: flex;
+        justify-items: center;
+        
+    }
+    .container {
+        border: 1px solid white; /* Màu và độ rộng của khung viền */
+        padding: 0px; /* Khoảng cách giữa nội dung và khung viền */
+        width: 300px; /* Chiều rộng của container */
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.395);
+    }
+    .image-sell-off{
+        height: 300px;
+        width: 300px;
+    }
+    .text-product{
+        display: flex;
+        justify-content: center;
+        background-color: orangered;
+        color: aliceblue;
+    }
+}
