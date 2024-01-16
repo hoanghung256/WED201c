@@ -1,0 +1,207 @@
+@media only screen and (max-width: 600px){
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .header .menu{
+        display: flex;
+        justify-content: center;
+        font-size: smaller;
+    }
+    
+    .header .logo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header .logo .logo_img{
+        width: 50%;
+        height: auto;
+    }
+    
+    .header .search-box{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+    
+    .header .search-box .input{
+        width: 100%;
+        margin:25px;
+    }
+    
+    .Menu_2 ul{
+        background-color:crimson;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+    
+    .Menu_2 li {
+        color: #f1f1f1;
+        display: inline-block;
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: -5px;
+    }
+    
+    .Menu_2 a{
+        text-decoration: none;
+        color: #fff;
+        display: block;
+    }
+    
+    .Menu_2 a:hover{
+        background-color: #f1f1f1;
+        color: crimson;
+    }
+    
+    .banner1{
+        margin-bottom: 10px;
+    }
+    
+    .banner1 img{
+        width: 100%;
+    }
+    
+    .banner2{
+        margin-bottom: 10px;
+    }
+    
+    .banner2 img{
+        width: 100%;
+    }
+    
+    .product .best_seller{
+        text-align: center;
+        font-size:x-large;
+        color: rgb(240, 125, 31);
+    }
+    
+    .product .text{
+        margin: 15px 0px;
+    }
+    
+    .detail{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .detail .image{
+        display: flex;
+        flex-direction: column;
+        justify-items:center;
+    }
+
+    .detail .pro1{
+        width: 100%;
+        height: auto;
+    }
+    
+    .des_gift{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .des_gift{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    
+    .des_gift{
+        margin-left: 60px;
+    }
+    .gift{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .gift img{
+        display: flex;
+        flex-direction:row;
+        justify-content:left;
+        width: 100%;
+        height: auto;
+    }
+    
+    .gift img{
+        height: 200px;   
+    }
+    
+    .gift h4{
+        color:aqua;
+    }
+    
+    .sale_off .title{
+        text-align: center;
+        font-size:xx-large;
+        color: rgb(240, 125, 31);
+    }
+    
+    .sale_off .image{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        justify-content:space-around;
+    }
+
+    .sale_off .image{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .sale_off .box_sale{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .sale_off .img{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    
+    .sale_off .box_sale{
+        width: 250px;
+        height: 300px;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        border: rgb(201, 207, 207);
+        border-style:solid;
+        box-sizing: border-box;
+    }
+    
+    .box_sale .name{
+        width: 100%;
+        height: 10%;
+        background-color: coral;
+        text-align:center;
+    }
+    
+    .box_sale h4{
+        margin: 0;
+        height: 100%;
+        color: #f1f1f1;
+    }
+    .footer{
+        background-color:red;
+        color: aliceblue;
+        text-align: center;
+        font-size:medium;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .footer2 h5{
+        margin-bottom: 0;
+    }
+}
