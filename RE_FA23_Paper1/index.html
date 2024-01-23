@@ -5,52 +5,113 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
  <!-- Embed CSS here-->
-  
-   
+	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-		<div>  <!-- search box -->
-			<div class="form-group has-feedback has-search">
-				<span class="glyphicon glyphicon-search form-control-feedback"></span>
-				<input type="text" class="form-control sizesearch" placeholder="Search">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-lg-4 col-sm-4">
+					<h2 class="text-info text-intro">Palmtrees is always with you to explore the world</h2>
+				</div>
+				<div class="col-lg-4 col-sm-4 d-flex justify-content-center">
+					<img src="images/logotravel.PNG" alt="Logo">
+				</div>
+				<div class="col-lg-4 col-sm-4">  <!--Search box-->
+					<div class="form-group has-feedback has-search">
+						<span class="glyphicon glyphicon-search form-control-feedback"></span>
+						<input type="text" class="form-control sizesearch" placeholder="Search">
+					</div>
+				</div>
 			</div>
 		</div>
-	
 		<div> <!--content menu-->
-			
-			 <nav class="navbar bg-primary"  role="navigation">
-			  <div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-
+			<nav class="navbar navbar-expand-sm menu1">
+				<div class="container-fluid justify-content-center" >
+					<ul class="nav">
+						<li class="" >
+							<a href="index.html" class="nav-link text-white">Home</a>
+						</li>
+						<li class="">
+							<a href="#" class="nav-link text-white">Tours</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link text-white">News</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link text-white">Services</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link text-white">Events</a>
+						</li>
+					</ul>
 				</div>
-
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				  <ul class="nav navbar-nav">
-
-					<li class="active"> <a href="index.html">Home</a> </li>
-
-					<li ><a href="#">Tours</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Events</a></li>
-					
-				  </ul>
-
-				</div>
-			  </div>
 			</nav>
-			
 		</div> <!--Finish content menu-->
-		
+		<div class="container-fluid mt-4 mb-4"> <!--Intro-->
+			<div class="row">
+				<div class="col-lg-3">
+					<img class="img-intro " src="images/Bannerquangcao.jpg" alt="Banner quảng cáo">
+				</div>
+				<div class="col-lg-6 intro">
+					<h2 class="text-info text-intro">Unforgettable about Ha Giang</h2>
+					<p>
+						Being a high mountains province, the climate in Hà Giang is noticeably cold compares to the neighboring lowlands and midlands. the average annual temperature is about 21-23 degrees Celsius. Outstanding features of the climate are high humidity throught out the year, heavy and prolonged rain.
+					</p>
+					<p>
+						You can travel to Ha Giang in any season of the year. People often come to Ha Giang in the fall when the rice is ripe and golden. The most beautiful time is October, November and December, when buckwheat flowers or mustard feilds bloom. In spring, apricot blossoms and plum blossoms bloom white in the forest, making you feel like you're floating on the clouds.
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<div class="justify-content-center">
+						<h2 class="text-info text-intro">Tour Registration</h2>
+						<form class="container-fluid ">
+						<label for="fullname:">Fullname</label><br>
+						<input type="text" class="form-control" id="Fullname" value="Enter name"><br>
+						<label for="email">Email</label><br>
+						<input type="text" class="form-control" id="email" value="Enter email"><br>
+						<label for="phone">Phone</label><br>
+						<input type="text" class="form-control" id="phone" value="Enter phone number"><br>
+						<button type="button" class="btn btn-danger btn-lg">Send</button>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div> <!--End intro-->
+		<div><!--Famous place-->
+			<h2 class="text-intro text-info">Famous Landmarks of Ha Giang</h2>
+			<div class="container-fluid mb-4 mt-4">
+				<div class="row">
+					<div class="col-lg-3">
+						<img class="img-famous mb-3 mt-3" src="images/CongtroiQuanba.jpg" alt="Cổng trời quán bà" >
+					</div>
+					<div class="col-lg-3">
+						<img class="img-famous mb-3 mt-3" src="images/Cotcolungcu.jpg" alt="Cột cờ lungx cứ" >
+					</div>
+					<div class="col-lg-3">
+						<img class="img-famous mb-3 mt-3" src="images/meovac.jpg" alt="Mèo Vạc" >
+					</div>
+					<div class="col-lg-3">
+						<img class="img-famous mb-3 mt-3" src="images/dongvan.jpg" alt="Đồng Văn" >
+					</div>
+				</div>
+			</div>
+		</div><!--End famous place-->
+		<div>
+			<div class="container-fluid mt-5 mb-4">
+				<div class="row">
+					<div class="col-lg-3">
+						<img class="img-famous img-fluid mb-3 mt-3" src="images/Quanba.jpg" alt="Quan ba" >
+					</div>
+					<div class="col-lg-9">
+						<h2 class="text-success">Quan Ba - Ha Giang</h2>
+						<p>Being a high mountains province, the climate in Hà Giang is noticeably cold compares to the neighboring lowlands and midlands. the average annual temperature is about 21-23 degrees Celsius. Outstanding features of the climate are high humidity throught out the year, heavy and prolonged rain. Năm 1900, Đạo quan binh Hà Giang đổi thành tỉnh Hà Giang. Về sau huyện Vị Xuyên lại được chia thành hai huyện: Vị Xuyên và Hoàng Su Phì. Vùng Quản Bạ là một tiểu khu gồm 7 xã của huyện Vị Xuyên: Quản Bạ, Quyết Tiến, Đông Hà, Thanh Vân, Cao Tả Tùng, Nghĩa Thuận, Thái An.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	<script src="js/Jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 	
