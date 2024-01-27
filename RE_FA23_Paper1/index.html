@@ -7,53 +7,130 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
  <!-- Embed CSS here-->
-  
+  <link rel="stylesheet" href="css/styleindex.css">
    
 </head>
 <body>
-		<div>  <!-- search box -->
-			<div class="form-group has-feedback has-search">
-				<span class="glyphicon glyphicon-search form-control-feedback"></span>
-				<input type="text" class="form-control sizesearch" placeholder="Search">
+		<div class="container-fluid text-center">  <!-- search box -->
+			<div class="row">
+				<div class="slogan col-md-4 mt-md-2">
+					<h3><i>Palmtree is always with you <br> to explore the world</i></h3>
+				</div>
+				<div class="logo col-md-4">
+					<img src="images/logotravel.PNG" alt="logo">
+				</div>
+				<div class="search-bar form-group has-feedback has-search col-md-4">
+					<span class="glyphicon glyphicon-search form-control-feedback"></span>
+					<input type="text" class="form-control sizesearch" placeholder="Search">
+				</div>
 			</div>
 		</div>
 	
-		<div> <!--content menu-->
-			
-			 <nav class="navbar bg-primary"  role="navigation">
-			  <div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
+		<nav class="navbar bg-primary"  role="navigation">
+			<div class="container-fluid">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button>
 
-				</div>
-
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				  <ul class="nav navbar-nav">
-
-					<li class="active"> <a href="index.html">Home</a> </li>
-
-					<li ><a href="#">Tours</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">Events</a></li>
-					
-				  </ul>
-
-				</div>
 			  </div>
-			</nav>
+
+			  <div class="navbar-content navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+				  <li> <a href="index.html">Home</a> </li>
+				  <li ><a href="#">Tours</a></li>
+				  <li><a href="#">News</a></li>
+				  <li><a href="#">Services</a></li>
+				  <li><a href="#">Events</a></li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
 			
 		</div> <!--Finish content menu-->
-		
+		<div class="introduction container-fluid">
+			<div class="row">
+				<div class="banner1 col-md-4 col-sm-12 img-fluid "><img src="images/Bannerquangcao.jpg" alt="banner"></div>
+				<div class="introduction-text col-md-5 text-justify">
+					<h3 class="text-center">Unforgettable experience about Ha Giang</h3>
+					<p>A border province and official Frontier Area, Ha Giang lies in the remote
+						far northern region of the country. To visit this province is to journey back 
+						in time and encounter some of Vietnam’s most rugged and grand landscapes. 
+						Ha Giang is best experienced as a road trip on two wheels, soaking up 
+						the majesty of the landscape and the atmosphere of the remote towns and minority villages.</p>
+					<p>The roads of Ha Giang serve up the ultimate motorcycle adventures. The drive into Dong Van
+						is impossibly beautiful, however Ma Pi Leng — where the road snakes past the Nho Que
+						 River — is the jewel in Ha Giang crown.</p>
+				</div>
+				<div class="tour-registration col-md-3">
+					<h3 class="text-center">Tour Registration</h3>
+					<div class="mb-3">
+						<label for="name-input" class="form-label">Fullname</label>
+						<input type="email" class="form-control" id="name-input" placeholder="Enter your fullname">
+					</div>
+					<div class="mb-3">
+						<label for="email-input" class="form-label">Email address</label>
+						<input class="form-control" id="email-input" placeholder="Enter your Email">
+					</div>
+					<div class="mb-3">
+						<label for="phone-input" class="form-label">Phone</label>
+						<input class="form-control" id="phone-input" placeholder="Enter your Phone number">
+					</div>
+					<div class="send-button">
+						<button type="button" class="btn btn-warning">Send</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class=" landmarks container-fluid">
+			<div class="text-justify">
+				<h3 class="text-center">Famous landmarks of Ha Giang</h3>
+			</div>
+			<div class="row">
+				<div class="landmarks-img1 col-md-3 img-fluid"><img src="images/dongvan.jpg" alt="Dong Van"></div>
+				<div class="landmarks-img2 col-md-3 img-fluid"><img src="images/Cotcolungcu.jpg" alt="Dong Van"></div>
+				<div class="landmarks-img3 col-md-3 img-fluid"><img src="images/meovac.jpg" alt="Dong Van"></div>
+				<div class="landmarks-img4 col-md-3 img-fluid"><img src="images/CongtroiQuanba.jpg" alt="Dong Van"></div>
+			</div>
+		</div>
+		<div class="quan-ba container-fluid">
+			<div class="row">
+				<div class="quan-ba-img col-md-4 img-fluid"><img src="images/Quanba.jpg" alt="Quan Ba"></div>
+				<div class="introduction col-md-8">
+					<div class="quan-ba-title">
+						<h3>Quan Ba - Ha Giang</h3>
+						<p>Quan Ba is a famous stop along the route of the Ha Giang loop. It is here where you enter
+							the real mountain area of the province, after driving over the stunning Heaven Gate pass 
+							with views on the Twin Mountains. If you have time, make sure to check out some of the 
+							remote local villages of minority and when you arrive at the right day, you can also see
+							their unique market.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="booking container-fluid">
+			<div class="row justify-content-center align-items-center">
+				<div class="text-justify">
+					<h4 class="text-center">Price: 400$</h4>
+				</div>
+				<button class="booking-button btn-lg" type="button">Book now</button>
+			</div>
+		</div>
+
+		<div class="footer"><!--footer-->
+			<div class="footer-content d-flex align-items-center justify-content-center">
+				<p>Email:mail@gmail.com</p>
+				<p>Phone: 123456789</p>
+				<p>Copyright: abcxyz</p>
+			</div>
+		</div>
 	<script src="js/Jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	
 </body>
 	
 </html>

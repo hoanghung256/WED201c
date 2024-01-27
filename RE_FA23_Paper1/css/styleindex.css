@@ -1,0 +1,71 @@
+.slogan{
+    margin-top: 40px;
+}
+
+.search-bar{
+    margin-top: 50px;
+}
+
+.banner1 img{
+    width: 100%;
+    height: auto;
+}
+
+.landmarks-img1, .landmarks-img2, 
+.landmarks-img3, .landmarks-img4{
+    margin-top: 20px;
+}
+.send-button, .mb-3{
+    margin-top: 10px;
+}
+
+.landmarks-img1 img, .landmarks-img2 img, .landmarks-img3 img, .landmarks-img4 img{
+    width: 100%;
+    height: 260px;
+}
+
+.quan-ba-img img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.quan-ba .introduction{
+    margin-top: 50px;
+}
+
+.booking-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-button{
+    border-radius: 0px ;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background-color: aqua;
+}
+
+.footer{
+    margin-top: 40px;
+    background-color: aqua;
+}
+
+.footer-content p{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.landmarks h3, .introduction-text h3, .tour-registration h3{
+    color: aqua;
+}
+
+@media screen and (min-width: 768px){
+    .navbar-collapse.collapse{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+}
